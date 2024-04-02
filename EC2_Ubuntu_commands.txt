@@ -1,0 +1,17 @@
+sudo apt update
+sudo apt-get update
+sudo apt upgrade -y
+sudo apt install git curl unzip tar make sudo vim wget -y
+git clone https://github.com/darsh1234/MCQ-generator-using-langchain-and-OpenAI.git
+cd MCQ-generator-using-langchain-and-OpenAI
+touch .env
+vi .env #open .env file in vim
+    i #insert mode
+    #paste the OpenAI API Key
+    # press 'esc'
+    # use ':wq' to save the changes and quit
+sudo apt install python3-pip
+pip3 install -r requirements.txt
+python3 -m streamlit run Streamlit_app.py
+
+#change inbound rule for port 8501 for ipv4 to anywhere in AWS for the EC2 instance
