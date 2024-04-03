@@ -13,25 +13,33 @@ MCQ Generator is a web application that utilizes LangChain and the OpenAI API to
 
 1. Clone the repository:
 
-git clone https://github.com/darsh1234/MCQ-generator-using-langchain-and-OpenAI.git
-cd mcq-generator
+'''git clone https://github.com/darsh1234/MCQ-generator-using-langchain-and-OpenAI.git'''
 
-2. Dependencies
+'''cd MCQ-generator-using-langchain-and-OpenAI'''
+
+2. Create a virual environment (Recommended):
+
+'''conda create --name mcq_env python=3.10'''
+
+'''conda activate mcq_env'''
+
+
+3. Dependencies
 Ensure you have all the dependecies installed as given in requirements.txt
 
-pip install -r requirements.txt
+'''pip install -r requirements.txt'''
 
-3.create a .env file in the root directory
+4.create a .env file in the root directory
 
-touch .env
+'''touch .env'''
 
-4. add your OpenAI API Key to the .env file
+5. add your OpenAI API Key to the .env file
 
-OPENAI_API_KEY = ""
+'''OPENAI_API_KEY = ""'''
 
-4. Run the webapp
+6. Run the webapp
 
-streamlit run Stremalit_app.py
+'''streamlit run Stremalit_app.py'''
 
 
 ## Deployment 
