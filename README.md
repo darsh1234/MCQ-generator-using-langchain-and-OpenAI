@@ -13,7 +13,7 @@ MCQ Generator is a web application that utilizes LangChain and the OpenAI API to
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/mcq-generator.git
+git clone https://github.com/darsh1234/MCQ-generator-using-langchain-and-OpenAI.git
 cd mcq-generator
 
 2. Dependencies
