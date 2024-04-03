@@ -27,7 +27,7 @@ touch .env
 
 4. add your OpenAI API Key to the .env file
 
-OPENAI_API_KEY=""
+OPENAI_API_KE = ""
 
 4. Run the webapp
 
